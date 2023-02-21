@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    font-family:'Work Sans';
+}
+header{
+    background: rgba(255, 144, 14, 0.1);
+    width: 1920px;
+    height: 1322px;
+}
+.navigates{
+    width: 75%;
+    margin: 0 auto;
+    padding: 50px;
+}
+.nav-title{
+    font-weight: 700;
+font-size: 45px;
+font-family: 'Work Sans';
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-list{
+    display: flex;
+    gap: 20px;
+ 
+}
+.nav-list li{
+    list-style: none;
+}
+.nav-list a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+  
+}
+/*----------- banner section------------- */
+.banner{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+    
+.banner-title{
+    font-weight: 700;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+color: #131313;
+
+   
+
+}
+.banner-description{
+    color: #727272;
+    
+    gap: 20px;
+    font-size: 16px;
+    margin: 0 auto;
+    width: 868px;
+     height: 52px;
+}
+.btn-1{
+    gap: 32px;
+    width: 180px;
+height: 64px;
+margin: 0 auto;
+color: #FFFFFF;
+border-radius: 5px;
+border: none;
+background-color: #FF900E;
+font-weight: 600;
+font-size: 20px;
+}
+.banner-img{
+    width: 100%;
+}
+
+
+
